@@ -1,0 +1,66 @@
+/* *********************************SECAO PROFILE*/
+.profile {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 212px;
+    margin-top: 77px;
+    height: 500px;
+    width: 1015px;
+}
+
+.profile img {
+    height: 500px;
+    width: 540px;
+}
+
+.textos-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 500px;
+    width: 350px;
+
+    border-top: 1px solid #33323d15;
+    border-bottom: 1px solid #33323d15;
+}
+
+.textos-profile div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 15px;
+    border: 1px solid #33323d;
+    height: 48px;
+    width: 175px;
+}
+
+.textos-profile h2 {
+    margin-top: 52px;
+}
+
+.textos-profile p {
+    margin-top: 28px;
+    opacity: 0.8;
+}
+
+/* BOTAO VER PROJETO HOVER */
+.textos-profile div:hover {
+    background-color: #33323d;
+}
+
+.textos-profile div:hover a {
+    color: #ffffff;
+}
+
+/* SECAO PROFILE - margin top maior*/
+#margin-top-maior {
+    margin-top: 94px;
+}
+
+/* SECAO PROFILE - margin left maior*/
+#margin-left-maior {
+    margin-left: 304px;
+}

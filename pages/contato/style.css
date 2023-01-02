@@ -1,0 +1,66 @@
+/* *********************************SECAO ENTRE EM CONTATO  */
+
+.entre-em-contato {
+    display: flex;
+    justify-content: space-between;
+
+    gap: 125px;
+
+    margin-left: 165px;
+    margin-top: 94px;
+    margin-bottom: 47px;
+    height: 354px;
+    width: 1110px;
+
+    border-top: 1px solid #33323d15;
+    border-bottom: 1px solid #33323d15;
+}
+
+.entre-em-contato div {
+    display: flex;
+    flex-direction: column;
+
+    width: 635px;
+    margin-top: 48px;
+}
+
+.entre-em-contato h2 {
+    width: 350px;
+    margin-top: 48px;
+
+}
+
+.icones-contatos-dark {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    margin-top: 54px;
+    height: 24px;
+    width: 104px;
+}
+
+.icones-contatos-dark img {
+    height: 24px;
+    width: 24px;
+}
+
+/* *********************************SECAO ENVIAR CONTATO  */
+
+.enviar-contato {
+    display: flex;
+    justify-content: space-between;
+    gap: 125px;
+
+    margin-left: 165px;
+    margin-bottom: 109px;
+    height: 354px;
+    width: 1110px;
+}
+
+.enviar-contato div {
+    width: 635px;
+    height: 426px;
+
+    background-color: lightgrey;
+}

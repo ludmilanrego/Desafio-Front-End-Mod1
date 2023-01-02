@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* CONFIGURACOES TEXTO */
+
+h1 {
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-style: bold;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -0.45px;
+
+    color: #33323D;
+}
+
+h2 {
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-style: bold;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: -0.36px;
+
+    color: #33323D;
+}
+
+h3 {
+    font-family: 'Ibarra Real Nova', sans-serif;
+    font-style: bold;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.29px;
+
+    color: #33323D;
+}
+
+h4 {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #5FB4A2;
+}
+
+.body1 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+
+
+    color: #33323D;
+}
+
+.body2 {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+
+}
+
+
+.botao-letra-escura {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #33323D;
+
+}
+
+.botao-letra-clara {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color: #ffffff;
+
+}
+
+/* ***********************************HEADER COMUM A TODAS AS PAGINAS */
+
+/* *********************************SECAO HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 32px;
+    width: 1111px;
+    margin-left: 165px;
+    margin-top: 64px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+
+    list-style: none;
+}
+
+.botao-letra-escura a {
+
+    text-decoration: none;
+    color: #33323D;
+}
+
+#pagina-atual {
+    color: #5FB4A2;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ***********************************/
+
+/* ***********************************SECAO CONTATO COMUM A TODAS AS PAGINAS */
+
+/* *********************************SECAO CONTATO  */
+.contato {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    margin-left: 165px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 1110px;
+}
+
+.contato h2 {
+    height: 84px;
+    width: 367px;
+
+}
+
+.contato div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 48px;
+    width: 168px;
+    border: 1px solid #33323d;
+}
+
+/* BOTAO CONTATO HOVER */
+.contato div:hover {
+    background-color: #33323d;
+}
+
+.contato div:hover a {
+    color: #ffffff;
+}
+
+/* *********************** */
+
+/* ***********************************FOOTER COMUM A TODAS AS PAGINAS */
+
+/* *********************************SECAO FOOTER  */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 80px;
+    width: 1440px;
+
+    background-color: #33323d;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.icones-contatos {
+    gap: 0px;
+}
+
+footer img {
+    height: 32px;
+    width: 61px;
+}
+
+.botao-letra-clara a {
+
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.icones-contatos {
+    height: 24px;
+    width: 104px;
+}
+
+.icones-contatos img {
+    height: 24px;
+    width: 24px;
+}

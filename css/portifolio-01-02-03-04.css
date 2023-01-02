@@ -1,0 +1,125 @@
+/*****************************************PAGINAS PROFILE 01 - 04 */
+
+/* *********************************SECAO PROFILE*/
+.hero {
+    height: 500px;
+    width: 1110px;
+    margin-left: 165px;
+    margin-top: 94px;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+
+    margin-left: 165px;
+    margin-top: 115px;
+    height: 1192px;
+    width: 1110px;
+}
+
+.textos-profile {
+    display: flex;
+    flex-direction: column;
+
+    height: 498px;
+    width: 350px;
+    border-top: 1px solid #33323d15;
+    border-bottom: 1px solid #33323d15;
+}
+
+.textos-profile h2 {
+    margin-top: 49px;
+}
+
+.textos-profile p {
+    margin-top: 29px;
+    margin-bottom: 37px;
+    opacity: 0.8;
+}
+
+.textos-profile h4 {
+    margin-top: 16px;
+}
+
+/* BOTAO VISITAR */
+.textos-profile div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #33323d;
+    height: 48px;
+    width: 175px;
+    margin-top: 32px;
+}
+
+/* ************************ */
+
+/* BOTAO VISITAR HOVER */
+.textos-profile div:hover {
+    background-color: #33323d;
+    color: #ffffff;
+}
+
+/* ************************ */
+
+.textos-profile-lado-esquerdo {
+    display: flex;
+    flex-direction: column;
+
+    height: 1224px;
+    width: 635px;
+}
+
+.textos-profile-lado-esquerdo h3 {
+    margin-bottom: 28px;
+}
+
+.textos-profile-lado-esquerdo p {
+    margin-bottom: 40px;
+
+    opacity: 0.8;
+}
+
+.textos-profile-lado-esquerdo img {
+    height: 400px;
+    width: 635px;
+    margin-bottom: 32px;
+}
+
+/* *********************************SECAO NAVEGACAO*/
+.barra-navegacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 132px;
+    width: 1110px;
+    margin-top: 32px;
+    margin-left: 165px;
+
+    border-top: 1px solid #33323d15;
+    border-bottom: 1px solid #33323d15;
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.navegacao div {
+    display: flex;
+    flex-direction: column;
+}
+
+.opaca {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+
+    color: #33323d50;
+}
+
+/* ****************************** */
